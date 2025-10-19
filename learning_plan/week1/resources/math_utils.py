@@ -1,7 +1,12 @@
-
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@File:    math_utils.py
+@Author:  Aslice
+@Date:    2025/10/20 04:11
+@Description:
+"""
 import math
-from re import S
 from typing import Literal
 
 def is_prime(n: int) -> Literal[False]:
